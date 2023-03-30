@@ -120,7 +120,7 @@ export default function CreatePost({ showCreateModal, setShowCreateModal, user }
         </div>
         <div className="flex gap-2 mt-2">
           <img
-            src={user?.photoURL ?? img1}
+            src={tweet?.photoURL ?? img1}
             layout="fill"
             objectFit="contain"
             className="rounded-full w-[30px] h-[30px]"
